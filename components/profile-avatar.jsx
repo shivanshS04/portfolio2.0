@@ -7,8 +7,8 @@ import {
 export function ProfileAvatar() {
     return (
         <Avatar>
-            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarImage src="" />
+            <AvatarFallback>SS</AvatarFallback>
         </Avatar>
     )
 }
