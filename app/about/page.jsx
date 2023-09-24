@@ -1,15 +1,9 @@
 'use client'
 import AboutActions from '@/components/AboutActions'
-import { Button } from '@/components/ui/button'
+import UpScroll from '@/components/scrollToTop'
 import { motion } from 'framer-motion'
-import { ArrowBigUp, ArrowUp, MoveUp } from 'lucide-react'
 export default function page() {
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
-    }
+
     return (
         <motion.div
             initial={{
@@ -37,7 +31,7 @@ export default function page() {
                 <br />
                 Collaboration is at the core of my approach to software development. I firmly believe that the most innovative solutions are born when bright minds come together to brainstorm, design, and build. Whether it's working with a small, agile team or collaborating on large-scale projects, I value the power of collective creativity. My goal is not just to write code but to create meaningful and innovative solutions that have a positive impact on the world. Together with fellow tech enthusiasts, I'm committed to shaping the future through technology, one line of code at a time. 🕸️🧑‍💻
             </p>
-            <ArrowUp className="fixed bottom-0 right-0 m-4  text-zinc-500 bg-zinc-800 p-1 rounded-sm" size={24} onClick={() => scrollToTop()} />
+            <UpScroll />
         </motion.div>
     )
 }
