@@ -1,6 +1,6 @@
 'use client'
 import { motion } from "framer-motion"
-import { Compass, FolderKanban, Github, Instagram, Linkedin, Mail, UserCircle, Wrench } from "lucide-react"
+import { Compass, FolderKanban, Github, Instagram, Linkedin, Mail, ScrollText, UserCircle, Wrench } from "lucide-react"
 import { usePathname, useRouter } from 'next/navigation'
 export default function NavLinks() {
     const pathname = usePathname();
@@ -20,6 +20,11 @@ export default function NavLinks() {
             name: 'Projects',
             route: '/projects',
             icon: <FolderKanban />
+        },
+        {
+            name: 'Certifications',
+            route: '/certificates',
+            icon: <ScrollText />
         },
         {
             name: "Stack",

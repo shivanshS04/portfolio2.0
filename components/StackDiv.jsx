@@ -1,3 +1,5 @@
+'use client'
+import { motion } from 'framer-motion'
 export default function StackDiv() {
     const techStackData = [
         {
@@ -52,7 +54,20 @@ export default function StackDiv() {
             {
                 techStackData.map((item, key) => {
                     return (
-                        <div className="flex flex-row items-center gap-3 m-3 md:hover:bg-zinc-800 p-3 rounded-md hover:transition-all hover:duration-500 ">
+                        <motion.div
+                            initial={{
+                                y: 50,
+                                opacity: 0
+                            }}
+                            animate={{
+                                y: 0,
+                                opacity: 1
+                            }}
+                            transition={{
+                                delay: 0.1,
+                                type: 'tween'
+                            }}
+                            className="overflow-hidden flex flex-row items-center gap-3 m-3 md:hover:bg-zinc-800 p-3 rounded-md hover:transition-all hover:duration-500 ">
                             <div className="w-12 bg-transparent">
                                 <img src={item.img} />
                             </div>
@@ -60,7 +75,7 @@ export default function StackDiv() {
                                 <h3 className="scroll-m-20 text-xl font-semibold tracking-tight" key={key} > {item.name}</h3>
                                 <p className="leading-7 text-zinc-500 " >{item.description} </p>
                             </div>
-                        </div>
+                        </motion.div>
                     )
                 })
             }

@@ -37,7 +37,7 @@ export default function page() {
                 </h3>
                 <MessageForm />
             </div>
-            
+
             <Toaster />
         </motion.div>
     )
