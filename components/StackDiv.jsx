@@ -67,6 +67,7 @@ export default function StackDiv() {
                                 delay: 0.1,
                                 type: 'tween'
                             }}
+                            key={key}
                             className="overflow-hidden flex flex-row items-center gap-3 m-3 md:hover:bg-zinc-800 p-3 rounded-md hover:transition-all hover:duration-500 ">
                             <div className="w-12 bg-transparent">
                                 <img src={item.img} />
