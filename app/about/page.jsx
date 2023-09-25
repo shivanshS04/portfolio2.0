@@ -25,7 +25,7 @@ export default function page() {
 
             <AboutActions />
 
-            <p className="leading-7 [&:not(:first-child)]:mt-6 text-zinc-500 md:w-2/4 lg:w-full">
+            <p className="leading-7 [&:not(:first-child)]:mt-6 text-zinc-500 md:w-2/4 lg:w-full pb-10">
                 I have an unwavering passion for technology and coding that fuels my journey in the dynamic field of software development. Every day is an opportunity for me to delve deeper into the ever-evolving world of tech, learning and adapting to new concepts, languages, and frameworks. This drive for continuous growth is not just a career choice; it's a way of life. I find immense satisfaction in tackling complex problems and turning them into efficient solutions through the power of code.💪🧠
                 <br />
                 <br />
