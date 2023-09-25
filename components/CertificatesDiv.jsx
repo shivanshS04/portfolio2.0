@@ -29,7 +29,7 @@ export default function CertificatesDiv() {
                             }}
                             key={key}
                             onClick={() => showCredentials(item.credentials)}
-                            className="overflow-hidden flex flex-row items-center gap-3 m-3 md:hover:bg-zinc-800 p-4 h-28 cursor-pointer rounded-md hover:transition-all hover:duration-500 ">
+                            className="overflow-hidden flex flex-row items-center gap-3 m-3 md:hover:dark:bg-zinc-800 md:hover:bg-zinc-100 p-4 h-28 cursor-pointer rounded-md hover:transition-all hover:duration-500 ">
                             <div className="w-12 bg-transparent">
                                 <img src={item.img} />
                             </div>
