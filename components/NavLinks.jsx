@@ -1,12 +1,17 @@
 'use client'
+
 import { motion } from "framer-motion"
 import { Compass, FolderKanban, Github, Instagram, Linkedin, Mail, ScrollText, UserCircle, Wrench } from "lucide-react"
 import { usePathname, useRouter } from 'next/navigation'
-export default function NavLinks() {
+
+export default function NavLinks({ setOpen }) {
     const pathname = usePathname();
     const router = useRouter();
 
     function handleClick(route) {
+        if (setOpen) {
+            setOpen(false)
+        }
         router.push(route, 'push')
     }
 
@@ -94,7 +99,7 @@ export default function NavLinks() {
                         key={key}
                         variants={listItem}
                         onClick={() => handleClick(item.route)}
-                        className={`flex flex-row justify-start items-center gap-2 p-3  ${item.route == pathname ? 'bg-zinc-800 text-white' : 'bg-zinc-900 text-zinc-500'} hover:text-white rounded-md first:mt-10 mt-2 cursor-pointer `}
+                        className={`flex flex-row justify-start items-center gap-2 p-3  ${item.route == pathname ? 'bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white' : 'bg-zinc-300 dark:bg-zinc-900 text-zinc-500'} hover:text-black hover:dark:text-white rounded-md first:mt-10 mt-2 cursor-pointer `}
                     >
                         {item.icon} {item.name}
                     </motion.li>
@@ -114,7 +119,7 @@ export default function NavLinks() {
                         key={key}
                         variants={listItem}
                         onClick={() => handleClick(item.href)}
-                        className={`flex flex-row justify-start items-center gap-2 p-3 text-zinc-500 hover:text-white bg-zinc-950 rounded-md first:mt-10 mt-2 cursor-pointer `}
+                        className={`flex flex-row justify-start items-center gap-2 p-3 text-zinc-500 hover:text-black hover:dark:text-white bg-zinc-300 dark:bg-zinc-950 rounded-md first:mt-10 mt-2 cursor-pointer `}
                     >
                         {item.icon} {item.name}
                     </motion.li>
