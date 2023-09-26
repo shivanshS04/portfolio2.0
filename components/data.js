@@ -12,7 +12,7 @@ export function certificatesData() {
       company: "FreeCodeCamp",
       credentials:
         "https://freecodecamp.org/certification/fccecfaced6-a143-486c-8399-e851cbd68f67/responsive-web-design",
-      img: "https://freecodecamp.github.io/design-style-guide/downloads/fcc_primary_small.png",
+      img: "https://yt3.ggpht.com/a/AATXAJwFt03RAznOsPwlfo5c1kW1rp-1o3Xgpw9MNreQMQ=s900-c-k-c0xffffffff-no-rj-mo",
     },
     {
       name: "API Fundamentals Student Expert",
@@ -24,7 +24,8 @@ export function certificatesData() {
     {
       name: "Python",
       company: "Microsoft",
-      credentials: "",
+      credentials:
+        "https://www.linkedin.com/posts/shivansh-srivastava-2135b5227_microsoft-trophy-python-for-beginners-was-activity-7111932329991823361-nOjz?utm_source=share&utm_medium=member_desktop",
       img: "https://th.bing.com/th/id/R.3d6a2ad56bc3403c5cfcc3efe09b741b?rik=gnNKMMZSvZ3uMA&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-microsoft-logo-iconlogobrand-logoiconslogos-251519939091wmudn.png&ehk=1%2fl4i5MeDLTCpvZhUZlCefvhSzsGR16HIPqagpDxYDg%3d&risl=&pid=ImgRaw&r=0",
     },
     {
@@ -97,6 +98,11 @@ export function techStackData() {
       description: "Backend Server",
       img: "https://cdn.icon-icons.com/icons2/2699/PNG/512/appwriteio_logo_icon_167836.png",
     },
+    {
+      name: "Tailwind CSS",
+      description: "CSS framework",
+      img: "https://codekitapp.com/images/help/free-tailwind-icon@2x.png",
+    },
 
     {
       name: "Flutter",
@@ -122,11 +128,6 @@ export function techStackData() {
       name: "MySQL",
       description: "Database",
       img: "https://pngimg.com/uploads/mysql/mysql_PNG19.png",
-    },
-    {
-      name: "Figma",
-      description: "Design Tool",
-      img: "https://brandlogos.net/wp-content/uploads/2022/05/figma-logo_brandlogos.net_6n1pb.png",
     },
   ];
 }
