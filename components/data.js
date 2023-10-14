@@ -78,6 +78,13 @@ export function certificatesData() {
       company: "Infosys Springboard",
       img: "https://www.infosys.com/content/dam/infosys-web/en/about/springboard/images/infosys-springboard.png",
     },
+    {
+      name: "Open Source September",
+      credentials:
+        "https://www.linkedin.com/posts/shivansh-srivastava-2135b5227_activity-7116674307035963392-lEtp?utm_source=share&utm_medium=member_desktop",
+      company: "Scaler",
+      img: "https://play-lh.googleusercontent.com/CUTEE0Q3qo4kiFK20N9_MmJdBtO-QZpuDhQEfMU1HneFSbmPLf7UiympkbFVITH1pZA=w300",
+    },
   ];
 }
 
