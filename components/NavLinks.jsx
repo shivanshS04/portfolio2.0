@@ -51,7 +51,7 @@ export default function NavLinks({ setOpen }) {
         {
             name: 'LinkedIn',
             icon: <Linkedin />,
-            href: 'https://www.linkedin.com/in/shivansh-srivastava-2135b5227/'
+            href: 'https://www.linkedin.com/in/shivanshs04/'
         },
         {
             name: 'Github',
