@@ -83,7 +83,7 @@ export function certificatesData() {
       credentials:
         "https://www.linkedin.com/posts/shivansh-srivastava-2135b5227_activity-7116674307035963392-lEtp?utm_source=share&utm_medium=member_desktop",
       company: "Scaler",
-      img: "https://play-lh.googleusercontent.com/CUTEE0Q3qo4kiFK20N9_MmJdBtO-QZpuDhQEfMU1HneFSbmPLf7UiympkbFVITH1pZA=w300",
+      img: "https://th.bing.com/th/id/OIP.IW4dgvSGkNGsChDWUG2T2wAAAA?pid=ImgDet&rs=1",
     },
   ];
 }
