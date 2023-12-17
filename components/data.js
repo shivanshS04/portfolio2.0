@@ -1,11 +1,11 @@
 export function certificatesData() {
   return [
     {
-      name: "Introduction to Augmented Reality and ARCore",
-      company: "Google , Coursera",
+      name: "Meta Front-End Developer",
+      company: "Meta",
       credentials:
-        "https://www.coursera.org/account/accomplishments/certificate/5R3HCA4GMSDM",
-      img: "https://cdn.iconscout.com/icon/free/png-512/coursera-3521364-2944808.png",
+        "https://www.coursera.org/verify/professional-cert/XE6AUZ2P7CPZ",
+      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
     },
     {
       name: "Responsive Web Design",
@@ -55,19 +55,6 @@ export function certificatesData() {
         "https://cdn-1.webcatalog.io/catalog/hackerrank/hackerrank-icon.png",
       img: "https://cdn-1.webcatalog.io/catalog/hackerrank/hackerrank-icon.png",
     },
-
-    {
-      name: "React Js Tutorial",
-      company: "Great Learning",
-      credentials: "https://verify.mygreatlearning.com/RTVZUTBD",
-      img: "https://s3-eu-west-1.amazonaws.com/tpd/logos/59c9e64b0000ff0005ac0dcd/0x0.png",
-    },
-    {
-      name: "UI/UX for beginners",
-      company: "Great Learning",
-      credentials: "https://verify.mygreatlearning.com/KRDATDJD",
-      img: "https://s3-eu-west-1.amazonaws.com/tpd/logos/59c9e64b0000ff0005ac0dcd/0x0.png",
-    },
     {
       name: "Getting Started with Cloud Computing",
       company: "Infosys Springboard",
@@ -83,7 +70,70 @@ export function certificatesData() {
       credentials:
         "https://www.linkedin.com/posts/shivansh-srivastava-2135b5227_activity-7116674307035963392-lEtp?utm_source=share&utm_medium=member_desktop",
       company: "Scaler",
-      img: "https://th.bing.com/th/id/OIP.IW4dgvSGkNGsChDWUG2T2wAAAA?pid=ImgDet&rs=1",
+      img: "https://s3-ap-southeast-1.amazonaws.com/ghost-production-blog/2021/05/Slice-icon-linkedin-1.png",
+    },
+    {
+      name: "Front End Developer Capstone",
+      company: "Meta",
+      credentials:
+        "https://www.coursera.org/account/accomplishments/certificate/EF74QLSMVRZV",
+      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+    },
+    {
+      name: "Version Control",
+      company: "Meta",
+      credentials:
+        "https://www.coursera.org/account/accomplishments/certificate/XR4NRT2463VR",
+      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+    },
+    {
+      name: "Introduction to Frontend Development",
+      company: "Meta",
+      credentials:
+        "https://www.coursera.org/account/accomplishments/certificate/JQRF2LV2BEUL",
+      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+    },
+    {
+      name: "Programming with Javascript",
+      company: "Meta",
+      credentials:
+        "https://www.coursera.org/account/accomplishments/certificate/RFA9LU9TQVBH",
+      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+    },
+    {
+      name: "React Basics",
+      company: "Meta",
+      credentials:
+        "https://www.coursera.org/account/accomplishments/certificate/PLSWKSPZ5HVG",
+      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+    },
+    {
+      name: "HTML and CSS in depth",
+      company: "Meta",
+      credentials:
+        "https://www.coursera.org/account/accomplishments/certificate/LZDDCQLC8MW3",
+      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+    },
+    {
+      name: "Coding Interview Preparation",
+      company: "Meta",
+      credentials:
+        "https://www.coursera.org/account/accomplishments/certificate/2TEH2HHUTRKY",
+      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+    },
+    {
+      name: "Principles of UI/UX Design",
+      company: "Meta",
+      credentials:
+        "https://www.coursera.org/account/accomplishments/certificate/EVE6DST4LXUV",
+      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+    },
+    {
+      name: "Advanced React",
+      company: "Meta",
+      credentials:
+        "https://www.coursera.org/account/accomplishments/certificate/VA5M3TZY7F5U",
+      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
     },
   ];
 }
