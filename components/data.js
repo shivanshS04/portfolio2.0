@@ -39,7 +39,7 @@ export function certificatesData() {
       name: "Foundations of Git",
       company: "GitKraken",
       credentials: "https://learn.gitkraken.com/certificates/tbhlisldmn",
-      img: "https://media.licdn.com/dms/image/D560BAQH7kMFduqTX1Q/company-logo_200_200/0/1691785849994?e=1703721600&v=beta&t=94ORT05RfFYUwY5BGsO3jWquDczzOOHPtyUur7hpQYE",
+      img: "https://pccrack.org/wp-content/uploads/2021/04/gitkraken_glo.png",
     },
     {
       name: "React (Basics)",
@@ -185,6 +185,45 @@ export function techStackData() {
       name: "MySQL",
       description: "Database",
       img: "https://pngimg.com/uploads/mysql/mysql_PNG19.png",
+    },
+  ];
+}
+
+export function projectsData() {
+  return [
+    {
+      title: "Hire Horizons",
+      url: "https://codsoft-tau.vercel.app/",
+      description: `• Created user-friendly job board with React, Node.js, MongoDB/PostgreSQL.
+• Designed inviting interface, featured job listings, detailed job pages.
+• Developed secure dashboards for employers, candidates, ensured data safety.
+•Streamlined job application process, smart search, email notifications implemented.
+`,
+      img: "",
+      techStack: ["NextJS", "Appwrite", "TailwindCSS"],
+    },
+    {
+      title: "URL Shortner",
+      url: "https://tiny-url-tau.vercel.app/",
+      description: `• Built a URL-shortner using NextJS frontend and Appwrite Backend.
+• Managed shrinking bulky URLs by 90%.
+• Implemented the redirecting functionality using Next-Router and Middleware.
+`,
+      img: "",
+      techStack: ["NextJS", "Appwrite", "NextRouting", "TailwindCSS"],
+    },
+    {
+      title: "OCR Card Text Extractor",
+      url: "https://cards-ten-gold.vercel.app/",
+      description: `
+      • Incubated a solution for business owners to get all details from a card into a csv file for easy sorting, 
+searching & filtering .
+• Helped users to organize their data and increase their productivity by 95%.
+• Implemented using ReactJS (framework) frontend and TesseractJS (library) for data extraction.
+• Enhanced user experience by adding existing file data updating functionality.
+      `,
+      img: "",
+      techStack: ["ReactJS", "TesseractJS", "ExcelJS"],
     },
   ];
 }
