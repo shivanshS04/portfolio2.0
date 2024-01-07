@@ -20,11 +20,11 @@ export default function NavLinks({ setOpen }) {
             route: '/',
             icon: <Compass />
         },
-        // {
-        //     name: 'Projects',
-        //     route: '/projects',
-        //     icon: <FolderKanban />
-        // },
+        {
+            name: 'Projects',
+            route: '/projects',
+            icon: <FolderKanban />
+        },
         {
             name: 'Certifications',
             route: '/certificates',
