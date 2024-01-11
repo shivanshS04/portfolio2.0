@@ -193,6 +193,7 @@ export function projectsData() {
   return [
     {
       title: "Hire Horizons",
+      github: "https://github.com/shivanshS04/CODSOFT/tree/master/hirehorizon",
       url: "https://codsoft-tau.vercel.app/",
       description: `• Created user-friendly job board with React, Node.js, MongoDB/PostgreSQL.
 • Designed inviting interface, featured job listings, detailed job pages.
@@ -204,6 +205,7 @@ export function projectsData() {
     },
     {
       title: "URL Shortner",
+      github: "https://github.com/shivanshS04/tiny-url",
       url: "https://tiny-url-tau.vercel.app/",
       description: `• Built a URL-shortner using NextJS frontend and Appwrite Backend.
 • Managed shrinking bulky URLs by 90%.
@@ -214,10 +216,11 @@ export function projectsData() {
     },
     {
       title: "OCR Card Text Extractor",
+      github: "https://github.com/shivanshS04/cards",
       url: "https://cards-ten-gold.vercel.app/",
       description: `
       • Incubated a solution for business owners to get all details from a card into a csv file for easy sorting, 
-searching & filtering .
+searching & filtering. 
 • Helped users to organize their data and increase their productivity by 95%.
 • Implemented using ReactJS (framework) frontend and TesseractJS (library) for data extraction.
 • Enhanced user experience by adding existing file data updating functionality.

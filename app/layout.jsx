@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
               <SideSheet />
             </div>
           </div>
-          <div className="max-md:mt-20 flex h-screen w-screen flex-row gap-2 ">
+          <div className=" mt-20 lg:mt-0 a flex h-screen w-screen flex-row gap-2 ">
             <SideBar />
             <div className="max-md:w-full lg:w-4/5">
               {children}
