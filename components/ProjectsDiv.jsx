@@ -21,7 +21,7 @@ export default function ProjectsDiv() {
                             </Link>
                         </div>
 
-                        <div className='flex flex-row gap-3 m-2 ml-0 mr-0 overflow-x-scroll'>
+                        <div className='flex flex-row gap-3 m-2 ml-0 mr-0 max-sm:overflow-x-scroll'>
                             {
                                 item.techStack.map((d, i) => (
                                     <div className='bg-zinc-400 text-white/80  font-semibold dark:bg-zinc-600 p-1 rounded-lg' key={i}>{d}</div>
