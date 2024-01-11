@@ -6,7 +6,6 @@ import { usePathname, useRouter } from 'next/navigation'
 
 export default function NavLinks({ setOpen }) {
     const pathname = usePathname();
-    const router = useRouter();
 
     function handleClick() {
         if (setOpen) {
