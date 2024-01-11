@@ -219,8 +219,7 @@ export function projectsData() {
       github: "https://github.com/shivanshS04/cards",
       url: "https://cards-ten-gold.vercel.app/",
       description: `
-      • Incubated a solution for business owners to get all details from a card into a csv file for easy sorting, 
-searching & filtering. 
+      • Incubated a solution for business owners to get all details from a card into a csv file for easy sorting,searching & filtering. 
 • Helped users to organize their data and increase their productivity by 95%.
 • Implemented using ReactJS (framework) frontend and TesseractJS (library) for data extraction.
 • Enhanced user experience by adding existing file data updating functionality.
