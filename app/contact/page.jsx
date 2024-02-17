@@ -26,7 +26,7 @@ export default function page() {
             <p className="leading-7 mb-4 [&:not(:first-child)]:mt-6 text-zinc-500 md:w-2/4 lg:w-full">I’m always looking to collaborate on interesting projects with great people. Need a supportive hand? I have two! 📱</p>
             <div className="flex flex-row gap-3 justify-start mb-8">
                 <Button asChild variant='secondary'>
-                    <a href="/Shivansh_Resume.pdf" download>Resume</a>
+                    <a href="/Shivansh_Resume.pdf" target="_blank">Resume</a>
                 </Button>
                 <Button variant='outline' onClick={() => copyEmail()}><Copy size={16} className="mr-2" /> E-mail</Button>
             </div>

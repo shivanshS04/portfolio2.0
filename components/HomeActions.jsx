@@ -16,7 +16,7 @@ export default function HomeActions() {
     return (
         <div className="flex flex-row justify-start items-center gap-3 mt-4 lg:w-2/4">
             <Button asChild variant='secondary'>
-                <a href="/Shivansh_Resume.pdf" download>Resume</a>
+                <a href="/Shivansh_Resume.pdf" target="_blank">Resume</a>
             </Button>
             <Button variant='outline' onClick={() => copyEmail()}><Copy size={16} className="mr-2" /> E-mail</Button>
             <Toaster />

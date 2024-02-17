@@ -6,7 +6,7 @@ export default function CertificatesDiv() {
     const data = certificatesData()
     const router = useRouter()
     function showCredentials(credentials) {
-        router.push(credentials, 'push')
+        router.push(credentials)
     }
 
     return (
