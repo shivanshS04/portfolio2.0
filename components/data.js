@@ -44,31 +44,33 @@ export function certificatesData() {
     {
       name: "React (Basics)",
       company: "HackerRank",
-      credentials:
-        "https://cdn-1.webcatalog.io/catalog/hackerrank/hackerrank-icon.png",
+      credentials: "https://www.hackerrank.com/certificates/3b264413f89e",
       img: "https://cdn-1.webcatalog.io/catalog/hackerrank/hackerrank-icon.png",
     },
     {
       name: "SQL (Basics)",
       company: "HackerRank",
-      credentials:
-        "https://cdn-1.webcatalog.io/catalog/hackerrank/hackerrank-icon.png",
+      credentials: "https://www.hackerrank.com/certificates/b702b43b636e",
       img: "https://cdn-1.webcatalog.io/catalog/hackerrank/hackerrank-icon.png",
     },
     {
       name: "Getting Started with Cloud Computing",
       company: "Infosys Springboard",
+      credentials:
+        "https://www.linkedin.com/posts/shivanshs04_got-a-certificate-from-infosys-springboard-activity-7108102516281663488-oZmO?utm_source=share&utm_medium=member_desktop",
       img: "https://www.infosys.com/content/dam/infosys-web/en/about/springboard/images/infosys-springboard.png",
     },
     {
       name: "Progressive Web Applications",
       company: "Infosys Springboard",
+      credentials:
+        "https://www.linkedin.com/posts/shivanshs04_got-a-progressive-web-apps-certificate-from-activity-7109928392145195008-4Ih5?utm_source=share&utm_medium=member_desktop",
       img: "https://www.infosys.com/content/dam/infosys-web/en/about/springboard/images/infosys-springboard.png",
     },
     {
       name: "Open Source September",
       credentials:
-        "https://www.linkedin.com/posts/shivansh-srivastava-2135b5227_activity-7116674307035963392-lEtp?utm_source=share&utm_medium=member_desktop",
+        "https://www.linkedin.com/posts/shivanshs04_activity-7116674307035963392-5ZiN?utm_source=share&utm_medium=member_desktop",
       company: "Scaler",
       img: "https://s3-ap-southeast-1.amazonaws.com/ghost-production-blog/2021/05/Slice-icon-linkedin-1.png",
     },
