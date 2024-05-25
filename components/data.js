@@ -8,6 +8,20 @@ export function certificatesData() {
       img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
     },
     {
+      name: "Back End Devlopment & APIs",
+      company: "FreeCodeCamp",
+      credentials:
+        "https://www.freecodecamp.org/certification/fccecfaced6-a143-486c-8399-e851cbd68f67/back-end-development-and-apis",
+      img: "https://yt3.ggpht.com/a/AATXAJwFt03RAznOsPwlfo5c1kW1rp-1o3Xgpw9MNreQMQ=s900-c-k-c0xffffffff-no-rj-mo",
+    },
+    {
+      name: "Java DSA Course",
+      company: "Scaler",
+      credentials:
+        "https://www.linkedin.com/posts/shivanshs04_java-dsa-scaleracademy-activity-7200106664232902657-TJeD?utm_source=share&utm_medium=member_desktop",
+      img: "https://s3-ap-southeast-1.amazonaws.com/ghost-production-blog/2021/05/Slice-icon-linkedin-1.png",
+    },
+    {
       name: "Responsive Web Design",
       company: "FreeCodeCamp",
       credentials:
@@ -195,6 +209,7 @@ export function projectsData() {
   return [
     {
       title: "Hire Horizons",
+      id: "hireHorizons",
       github: "https://github.com/shivanshS04/CODSOFT/tree/master/hirehorizon",
       url: "https://codsoft-tau.vercel.app/",
       description: `• Created user-friendly job board with React, Node.js, MongoDB/PostgreSQL.
@@ -207,6 +222,7 @@ export function projectsData() {
     },
     {
       title: "URL Shortner",
+      id: "urlShortner",
       github: "https://github.com/shivanshS04/tiny-url",
       url: "https://tiny-url-tau.vercel.app/",
       description: `• Built a URL-shortner using NextJS frontend and Appwrite Backend.
@@ -218,6 +234,7 @@ export function projectsData() {
     },
     {
       title: "OCR Card Text Extractor",
+      id: "textExtractor",
       github: "https://github.com/shivanshS04/cards",
       url: "https://cards-ten-gold.vercel.app/",
       description: `
