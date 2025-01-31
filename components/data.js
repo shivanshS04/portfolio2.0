@@ -1,155 +1,162 @@
 export function certificatesData() {
   return [
     {
+      name: "Oracle Cloud Infrastructure Foundations Associate",
+      company: "Oracle",
+      credentials:
+        "https://www.coursera.org/verify/professional-cert/XE6AUZ2P7CPZ",
+      img: "./oracle.png",
+    },
+    {
       name: "Meta Front-End Developer",
       company: "Meta",
       credentials:
         "https://www.coursera.org/verify/professional-cert/XE6AUZ2P7CPZ",
-      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+      img: "./meta.png",
     },
     {
       name: "Back End Devlopment & APIs",
       company: "FreeCodeCamp",
       credentials:
         "https://www.freecodecamp.org/certification/fccecfaced6-a143-486c-8399-e851cbd68f67/back-end-development-and-apis",
-      img: "https://yt3.ggpht.com/a/AATXAJwFt03RAznOsPwlfo5c1kW1rp-1o3Xgpw9MNreQMQ=s900-c-k-c0xffffffff-no-rj-mo",
+      img: "./freecodecamp.jpg",
     },
     {
       name: "Java DSA Course",
       company: "Scaler",
       credentials:
         "https://www.linkedin.com/posts/shivanshs04_java-dsa-scaleracademy-activity-7200106664232902657-TJeD?utm_source=share&utm_medium=member_desktop",
-      img: "https://s3-ap-southeast-1.amazonaws.com/ghost-production-blog/2021/05/Slice-icon-linkedin-1.png",
+      img: "./scaler.png",
     },
     {
       name: "Responsive Web Design",
       company: "FreeCodeCamp",
       credentials:
         "https://freecodecamp.org/certification/fccecfaced6-a143-486c-8399-e851cbd68f67/responsive-web-design",
-      img: "https://yt3.ggpht.com/a/AATXAJwFt03RAznOsPwlfo5c1kW1rp-1o3Xgpw9MNreQMQ=s900-c-k-c0xffffffff-no-rj-mo",
+      img: "./freecodecamp.jpg",
     },
     {
       name: "API Fundamentals Student Expert",
       company: "Postman",
       credentials:
         "https://badgr.com/public/assertions/om5gnxFBSs2tbg7BdNfTpQ?identity__email=shivanshsri.04@gmail.com",
-      img: "https://www.svgrepo.com/show/354202/postman-icon.svg",
+      img: "./postman.svg",
     },
     {
       name: "Python",
       company: "Microsoft",
       credentials:
         "https://www.linkedin.com/posts/shivansh-srivastava-2135b5227_microsoft-trophy-python-for-beginners-was-activity-7111932329991823361-nOjz?utm_source=share&utm_medium=member_desktop",
-      img: "https://th.bing.com/th/id/R.3d6a2ad56bc3403c5cfcc3efe09b741b?rik=gnNKMMZSvZ3uMA&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-microsoft-logo-iconlogobrand-logoiconslogos-251519939091wmudn.png&ehk=1%2fl4i5MeDLTCpvZhUZlCefvhSzsGR16HIPqagpDxYDg%3d&risl=&pid=ImgRaw&r=0",
+      img: "./microsoft.png",
     },
     {
       name: "Javascript & JQuery",
       company: "Udemy",
       credentials:
         "https://www.udemy.com/certificate/UC-353d6192-612f-4909-887e-ea58e3335d03/",
-      img: "https://th.bing.com/th/id/OIP.RgZkr80Z5dXz39PrdpIJUgAAAA?pid=ImgDet&rs=1",
+      img: "./udemy.jpeg",
     },
     {
       name: "Foundations of Git",
       company: "GitKraken",
       credentials: "https://learn.gitkraken.com/certificates/tbhlisldmn",
-      img: "https://pccrack.org/wp-content/uploads/2021/04/gitkraken_glo.png",
+      img: "./gitkraken.png",
     },
     {
       name: "React (Basics)",
       company: "HackerRank",
       credentials: "https://www.hackerrank.com/certificates/3b264413f89e",
-      img: "https://cdn-1.webcatalog.io/catalog/hackerrank/hackerrank-icon.png",
+      img: "./hackerrank.png",
     },
     {
       name: "SQL (Basics)",
       company: "HackerRank",
       credentials: "https://www.hackerrank.com/certificates/b702b43b636e",
-      img: "https://cdn-1.webcatalog.io/catalog/hackerrank/hackerrank-icon.png",
+      img: "./hackerrank.png",
     },
     {
       name: "Getting Started with Cloud Computing",
       company: "Infosys Springboard",
       credentials:
         "https://www.linkedin.com/posts/shivanshs04_got-a-certificate-from-infosys-springboard-activity-7108102516281663488-oZmO?utm_source=share&utm_medium=member_desktop",
-      img: "https://www.infosys.com/content/dam/infosys-web/en/about/springboard/images/infosys-springboard.png",
+      img: "./infosys.avif",
     },
     {
       name: "Progressive Web Applications",
       company: "Infosys Springboard",
       credentials:
         "https://www.linkedin.com/posts/shivanshs04_got-a-progressive-web-apps-certificate-from-activity-7109928392145195008-4Ih5?utm_source=share&utm_medium=member_desktop",
-      img: "https://www.infosys.com/content/dam/infosys-web/en/about/springboard/images/infosys-springboard.png",
+      img: "./infosys.avif",
     },
     {
       name: "Open Source September",
       credentials:
         "https://www.linkedin.com/posts/shivanshs04_activity-7116674307035963392-5ZiN?utm_source=share&utm_medium=member_desktop",
       company: "Scaler",
-      img: "https://s3-ap-southeast-1.amazonaws.com/ghost-production-blog/2021/05/Slice-icon-linkedin-1.png",
+      img: "./scaler.png",
     },
     {
       name: "Front End Developer Capstone",
       company: "Meta",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/EF74QLSMVRZV",
-      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+      img: "./meta.png",
     },
     {
       name: "Version Control",
       company: "Meta",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/XR4NRT2463VR",
-      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+      img: "./meta.png",
     },
     {
       name: "Introduction to Frontend Development",
       company: "Meta",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/JQRF2LV2BEUL",
-      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+      img: "./meta.png",
     },
     {
       name: "Programming with Javascript",
       company: "Meta",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/RFA9LU9TQVBH",
-      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+      img: "./meta.png",
     },
     {
       name: "React Basics",
       company: "Meta",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/PLSWKSPZ5HVG",
-      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+      img: "./meta.png",
     },
     {
       name: "HTML and CSS in depth",
       company: "Meta",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/LZDDCQLC8MW3",
-      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+      img: "./meta.png",
     },
     {
       name: "Coding Interview Preparation",
       company: "Meta",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/2TEH2HHUTRKY",
-      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+      img: "./meta.png",
     },
     {
       name: "Principles of UI/UX Design",
       company: "Meta",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/EVE6DST4LXUV",
-      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+      img: "./meta.png",
     },
     {
       name: "Advanced React",
       company: "Meta",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/VA5M3TZY7F5U",
-      img: "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta-768x432.png",
+      img: "./meta.png",
     },
   ];
 }
@@ -159,48 +166,59 @@ export function techStackData() {
     {
       name: "React js",
       description: "JS Library",
-      img: "https://www.doubleklickdesigns.com/wp-content/uploads/2020/07/reactjs-300x267.png",
+      img: "./react.png",
     },
     {
       name: "Next js",
       description: "Web Dev Framework",
-      img: "https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png",
+      img: "./nextjs.png",
     },
     {
       name: "Appwrite",
       description: "Backend Server",
-      img: "https://cdn.icon-icons.com/icons2/2699/PNG/512/appwriteio_logo_icon_167836.png",
+      img: "./appwrite.png",
     },
     {
       name: "Tailwind CSS",
       description: "CSS framework",
-      img: "https://codekitapp.com/images/help/free-tailwind-icon@2x.png",
+      img: "./tailwindcss.png",
     },
 
     {
       name: "Flutter",
       description: "Cross Platform Development Kit",
-      img: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/flutter-logo-5086DD11C5-seeklogo.com.png",
+      img: "./flutter.webp",
     },
     {
       name: "Python",
       description: "Programming Language",
-      img: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png",
+      img: "./python.webp",
     },
     {
       name: "C++",
       description: "Programming Language",
-      img: "https://www.freeiconspng.com/uploads/c--logo-icon-0.png",
+      img: "./cpp.png",
+    },
+    {
+      name: "Java",
+      description: "Programming Language",
+      img: "./java.png",
     },
     {
       name: "Firebase",
       description: "Backend Service",
-      img: "https://s.gravatar.com/avatar/48965da2c75390e8c486058c282b35cd?size=496&default=retro",
+      img: "./firebase.png",
     },
     {
       name: "MySQL",
       description: "Database",
-      img: "https://pngimg.com/uploads/mysql/mysql_PNG19.png",
+      img: "./mysql.png",
+    },
+
+    {
+      name: "Mongo DB",
+      description: "Database",
+      img: "./mongodb.png",
     },
   ];
 }
@@ -245,6 +263,47 @@ export function projectsData() {
       `,
       img: "",
       techStack: ["ReactJS", "TesseractJS", "ExcelJS"],
+    },
+  ];
+}
+
+export function experienceData() {
+  return [
+    {
+      position: "Software Developer Intern",
+      company: "Manipal University Jaipur",
+      type: "Intenship",
+      company_logo: "./muj.jpeg",
+      from: "Oct 2024",
+      to: "Present",
+      duration: "Currently Working",
+    },
+    {
+      position: "Research and Development Associate",
+      company: "Indian Institute of Technology, Kanpur",
+      type: "Intenship",
+      company_logo: "./iitk.jpeg",
+      from: "Jun 2024",
+      to: "Aug 2024",
+      duration: "3 months",
+    },
+    {
+      position: "Software Engineer Intern",
+      company: "Ram Raj Services Pvt. Ltd.",
+      type: "Intenship",
+      company_logo: "./ramraj.jpeg",
+      from: "Apr 2024",
+      to: "Jun 2024",
+      duration: "3 months",
+    },
+    {
+      position: "Web Developer Intern",
+      company: "CodSoft",
+      type: "Intenship",
+      company_logo: "./codsoft.jpeg",
+      from: "Dec 2023",
+      to: "Jan 2024",
+      duration: "1 month",
     },
   ];
 }

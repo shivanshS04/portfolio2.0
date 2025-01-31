@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from "framer-motion"
-import { Compass, FolderKanban, Github, Instagram, Linkedin, Mail, ScrollText, UserCircle, Wrench } from "lucide-react"
+import { Briefcase, Compass, FolderKanban, Github, Instagram, Linkedin, Mail, ScrollText, UserCircle, Wrench } from "lucide-react"
 import { usePathname, useRouter } from 'next/navigation'
 
 export default function NavLinks({ setOpen }) {
@@ -18,6 +18,11 @@ export default function NavLinks({ setOpen }) {
             name: 'Home',
             route: '/',
             icon: <Compass />
+        },
+        {
+            name: "Experience",
+            route: "/experience",
+            icon: <Briefcase />,
         },
         {
             name: 'Projects',
