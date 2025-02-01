@@ -103,14 +103,14 @@ export default function NavLinks({ setOpen }) {
                         variants={listItem}
                         onClick={() => handleClick()}
                         href={item.route}
-                        className={`flex flex-row justify-start items-center gap-2 p-3  ${item.route == pathname ? 'bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white' : 'bg-zinc-300 dark:bg-zinc-900 text-zinc-500'} hover:text-black hover:dark:text-white rounded-md first:mt-10 mt-2 cursor-pointer `}
+                        className={`flex flex-row justify-start items-center gap-2 p-3  ${item.route == pathname ? 'bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white' : 'bg-zinc-300 dark:bg-zinc-900 text-zinc-500'} hover:text-black hover:dark:text-white rounded-md first:mt-6 mt-2 cursor-pointer `}
                     >
                         {item.icon} {item.name}
                     </motion.a>
                 )
             })}
 
-            <hr className="m-4 opacity-20" />
+            <hr className="m-2 " />
 
             <motion.span
                 variants={listItem}
@@ -123,7 +123,7 @@ export default function NavLinks({ setOpen }) {
                         key={key}
                         variants={listItem}
                         href={item.href}
-                        className={`flex flex-row justify-start items-center gap-2 p-3 text-zinc-500 hover:text-black hover:dark:text-white bg-zinc-300 dark:bg-zinc-950 rounded-md first:mt-10 mt-2 cursor-pointer `}
+                        className={`flex flex-row justify-start items-center gap-2 p-3 text-zinc-500 hover:text-black hover:dark:text-white bg-zinc-300 dark:bg-zinc-950 rounded-md first:mt-6 mt-2 cursor-pointer `}
                     >
                         {item.icon} {item.name}
                     </motion.a>

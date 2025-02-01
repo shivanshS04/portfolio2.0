@@ -4,7 +4,7 @@ import { experienceData } from "@/components/data"
 
 export default function ExperiencePage() {
     return (
-        <div className="bg-background max-h-screen overflow-y-scroll overflow-x-hidden">
+        <div className="bg-background w-screen lg:w-full  max-h-screen overflow-y-scroll overflow-x-hidden ">
             <div className="max-w-7xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
                 <div className="text-start">
                     <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl">Experience</h1>
