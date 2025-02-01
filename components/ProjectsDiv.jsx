@@ -8,13 +8,14 @@ export default function ProjectsDiv() {
     const router = useRouter()
     function handleProjectClick(id) {
         router.push(`/projects/${id}`)
+
     }
 
     return (
         <div className='w-full overflow-y-scroll h-5/6 mt-5 flex flex-col gap-3'>
             {
                 data.map((item, index) => (
-                    <div className='cursor-pointer w-full bg-zinc-100 dark:bg-zinc-800 p-4 rounded-lg ' key={index} onClick={() => handleProjectClick(item.id)}>
+                    <div className='w-full bg-zinc-100 dark:bg-zinc-800 p-4 rounded-lg ' key={index} >
                         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
                             {item.title}
                         </h2>

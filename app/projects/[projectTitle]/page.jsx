@@ -30,7 +30,7 @@ export default function Page() {
                 <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
                     Demo
                 </h2>
-                <video src="/task2.mp4" muted loop controls autoPlay className="w-full mt-4 rounded-xl"></video>
+                
             </section>
             <UpScroll />
         </div>
