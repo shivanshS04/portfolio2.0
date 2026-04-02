@@ -240,43 +240,25 @@ export function techStackData() {
 export function projectsData() {
   return [
     {
-      title: "Hire Horizons",
-      id: "hireHorizons",
-      github: "https://github.com/shivanshS04/CODSOFT/tree/master/hirehorizon",
-      url: "https://codsoft-tau.vercel.app/",
-      description: `• Created user-friendly job board with React, Node.js, MongoDB/PostgreSQL.
-• Designed inviting interface, featured job listings, detailed job pages.
-• Developed secure dashboards for employers, candidates, ensured data safety.
-•Streamlined job application process, smart search, email notifications implemented.
-`,
+      title: "Travel Buddy",
+      id: "travelBuddy",
+      url: "https://travelbuddy.sdcmuj.com",
+      description: `A full-stack carpooling platform built exclusively for MUJ students. It features a real-time ride-matching algorithm, a secure authentication system, and role-based access control. The backend relies on robust RESTful API endpoints and a carefully designed database schema integrated with location-based services.`,
       img: "",
-      techStack: ["NextJS", "Appwrite", "TailwindCSS"],
+      techStack: ["React.js", "Tailwind CSS", "PostgreSQL", "Prisma"],
+      screenshots: ["/tb1.jpeg", "/tb2.jpeg", "/tb3.jpeg", "/tb4.jpeg"],
+      orientation: "portrait"
     },
     {
-      title: "URL Shortner",
-      id: "urlShortner",
-      github: "https://github.com/shivanshS04/tiny-url",
-      url: "https://tiny-url-tau.vercel.app/",
-      description: `• Built a URL-shortner using NextJS frontend and Appwrite Backend.
-• Managed shrinking bulky URLs by 90%.
-• Implemented the redirecting functionality using Next-Router and Middleware.
-`,
+      title: "AI Interviewer",
+      id: "aiInterviewer",
+      github: "https://github.com/shivanshS04/ai_interviewer",
+      url: "https://aitechnicalinterviewer.streamlit.app/",
+      description: `An adaptive interview simulation platform designed to generate technical questions tailored to specific company profiles, job roles, and candidate resumes. It supports multi-modal assessments for evaluating both theoretical concepts and practical coding challenges, complete with full voice-interaction compatibility. The platform also includes a comprehensive feedback system providing actionable insights and performance summaries.`,
       img: "",
-      techStack: ["NextJS", "Appwrite", "NextRouting", "TailwindCSS"],
-    },
-    {
-      title: "OCR Card Text Extractor",
-      id: "textExtractor",
-      github: "https://github.com/shivanshS04/cards",
-      url: "https://cards-ten-gold.vercel.app/",
-      description: `
-      • Incubated a solution for business owners to get all details from a card into a csv file for easy sorting,searching & filtering. 
-• Helped users to organize their data and increase their productivity by 95%.
-• Implemented using ReactJS (framework) frontend and TesseractJS (library) for data extraction.
-• Enhanced user experience by adding existing file data updating functionality.
-      `,
-      img: "",
-      techStack: ["ReactJS", "TesseractJS", "ExcelJS"],
+      techStack: ["Python", "LangChain", "LangGraph", "Streamlit", "Ollama"],
+      screenshots: ["/ai1.png", "/ai2.png", "/ai3.png", "/ai4.png"],
+      orientation: "landscape"
     },
   ];
 }

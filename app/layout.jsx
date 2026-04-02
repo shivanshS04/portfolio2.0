@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning={true}>
       <body className={inter.className}  >
         <ThemeProvider attribute="class" defaultTheme="system" >
-          <div className="lg:hidden flex flex-row justify-between items-center w-screen p-2 h-20 bg-zinc-200 dark:bg-zinc-900 fixed top-0 left-0 ">
+          <div className="z-50 lg:hidden flex flex-row justify-between items-center w-screen p-2 h-20 bg-zinc-200 dark:bg-zinc-900 fixed top-0 left-0 ">
             <ProfileHeader />
             <div className="flex flex-row justify-center items-center gap-2">
               <DarkModeToggle />

@@ -21,15 +21,10 @@ export default function page() {
 
             <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl">About Me</h1>
 
-            <h4 className="leading-7 [&:not(:first-child)]:mt-6">Self taught Frontend Developer who loves minimal design and a large cup of coffee ☕</h4>
-
             <AboutActions />
 
-            <p className="leading-7 [&:not(:first-child)]:mt-6 text-zinc-500 md:w-2/4 lg:w-full pb-10">
-                I have an unwavering passion for technology and coding that fuels my journey in the dynamic field of software development. Every day is an opportunity for me to delve deeper into the ever-evolving world of tech, learning and adapting to new concepts, languages, and frameworks. This drive for continuous growth is not just a career choice; it's a way of life. I find immense satisfaction in tackling complex problems and turning them into efficient solutions through the power of code.💪🧠
-                <br />
-                <br />
-                Collaboration is at the core of my approach to software development. I firmly believe that the most innovative solutions are born when bright minds come together to brainstorm, design, and build. Whether it's working with a small, agile team or collaborating on large-scale projects, I value the power of collective creativity. My goal is not just to write code but to create meaningful and innovative solutions that have a positive impact on the world. Together with fellow tech enthusiasts, I'm committed to shaping the future through technology, one line of code at a time. 🕸️🧑‍💻
+            <p className="leading-7 [&:not(:first-child)]:mt-6 text-zinc-500 md:w-3/4 lg:w-full pb-10">
+                Hi, I'm Shivansh Srivastava , a passionate Full-Stack Developer and AI enthusiast currently pursuing my B.Tech in Computer Science at Manipal University Jaipur. I love building practical, scalable solutions that solve real-world problems—whether that's architecting a microservices backend to improve scalability or creating a university carpooling platform. My technical sweet spot lies in the MERN stack, building mobile apps with Kotlin or React Native, and weaving Generative AI tools like LangChain into functional applications. When I finally step away from VS Code, you'll probably find me exploring the city through the lens of my Canon DSLR or Sony digicam trying to capture the perfect vintage shot, or just kicking back and listening to some AP Dhillon or Eminem.
             </p>
             <UpScroll />
         </motion.div>

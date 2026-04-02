@@ -6,38 +6,39 @@ import { useRouter } from 'next/navigation'
 export default function ProjectsDiv() {
     const data = projectsData()
     const router = useRouter()
-    function handleProjectClick(id) {
-        router.push(`/projects/${id}`)
-
-    }
 
     return (
-        <div className='w-full overflow-y-scroll h-5/6 mt-5 flex flex-col gap-3'>
+        <div className='w-full mt-5 grid grid-cols-1 md:grid-cols-2 gap-6'>
             {
                 data.map((item, index) => (
-                    <div className='w-full bg-zinc-100 dark:bg-zinc-800 p-4 rounded-lg ' key={index} >
-                        <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
-                            {item.title}
-                        </h2>
-                        <div className=' flex flex-row gap-1 mt-3'>
-                            <Link href={item.url} target='_blank' className="relative flex flex-row gap-4 justify-center items-center rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold bg-zinc-200 dark:bg-zinc-700">
-                                Project <ExternalLink size={20} />
-                            </Link>
-                            <Link href={item.github} target='_blank' className="relative flex flex-row gap-4 rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold bg-zinc-200 dark:bg-zinc-700">
-                                Github <ExternalLink size={20} />
-                            </Link>
+                    <div
+                        className='w-full bg-zinc-100 dark:bg-zinc-800/80 p-6 rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer flex flex-col justify-between border border-zinc-200 dark:border-zinc-700/50'
+                        key={index}
+                        onClick={() => router.push(`/projects/${item.id}`)}
+                    >
+                        <div>
+                            <h2 className="text-2xl font-bold tracking-tight mb-3">
+                                {item.title}
+                            </h2>
+                            <p className='text-zinc-600 dark:text-zinc-400 text-sm line-clamp-3 mb-4'>
+                                {item.description}
+                            </p>
+                            <div className='flex flex-wrap gap-2 mb-4'>
+                                {
+                                    item.techStack.slice(0, 3).map((d, i) => (
+                                        <span className='px-2 py-1 text-xs font-semibold bg-zinc-200 dark:bg-zinc-700/50 text-zinc-700 dark:text-zinc-300 rounded-md' key={i}>{d}</span>
+                                    ))
+                                }
+                                {item.techStack.length > 3 && (
+                                    <span className='px-2 py-1 text-xs font-semibold bg-zinc-200 dark:bg-zinc-700/50 text-zinc-700 dark:text-zinc-300 rounded-md'>+{item.techStack.length - 3}</span>
+                                )}
+                            </div>
                         </div>
 
-                        <div className='flex flex-row gap-3 m-2 ml-0 mr-0 max-sm:overflow-x-scroll'>
-                            {
-                                item.techStack.map((d, i) => (
-                                    <div className='bg-zinc-400 text-white/80  font-semibold dark:bg-zinc-600 p-1 rounded-lg' key={i}>{d}</div>
-                                ))
-                            }
+                        <div className="flex items-center text-sm font-medium text-gray-600 dark:text-gray-400 group underline underline-offset-2 ">
+                            View Details
+                            <ExternalLink size={16} className="ml-1 transition-transform group-hover:translate-x-1" />
                         </div>
-
-                        <p className='text-zinc-700 dark:text-zinc-300 font-medium whitespace-pre-line mb-3'>{item.description}</p>
-
                     </div>
                 ))
             }
