@@ -57,9 +57,11 @@ export default function Page() {
 
                 {/* Actionable Buttons */}
                 <div className="flex flex-row gap-3">
-                    <Link href={data.url} target="_blank" className="flex items-center gap-2 px-4 py-2 bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 rounded-lg font-medium hover:opacity-90 transition-opacity">
-                        <ExternalLink size={18} /> Live Demo
-                    </Link>
+                    {data.url &&
+                        <Link href={data.url} target="_blank" className="flex items-center gap-2 px-4 py-2 bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 rounded-lg font-medium hover:opacity-90 transition-opacity">
+                            <ExternalLink size={18} /> Live Demo
+                        </Link>
+                    }
                     {data.github && (
                         <Link href={data.github} target="_blank" className="flex items-center gap-2 px-4 py-2 bg-zinc-100 border border-zinc-300 dark:bg-zinc-800 dark:border-zinc-700 rounded-lg font-medium hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors">
                             <Github size={18} /> Source Code

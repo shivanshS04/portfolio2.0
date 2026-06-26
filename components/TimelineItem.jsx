@@ -35,13 +35,13 @@ export function TimelineItem({ position, company, type, company_logo, from, to, 
                     
                     <div className="flex flex-col gap-3">
                         <div className="flex items-center space-x-3 text-sm text-zinc-600 dark:text-zinc-400 bg-zinc-50 dark:bg-zinc-800/50 w-fit px-3 py-1.5 rounded-lg border border-zinc-100 dark:border-zinc-700/50 group-hover:bg-zinc-100 dark:group-hover:bg-zinc-800 transition-colors">
-                            <CalendarIcon className="w-4 h-4 text-blue-500 dark:text-blue-400" />
+                            <CalendarIcon className="w-4 h-4 text-zinc-950 dark:text-zinc-100" />
                             <span className="font-medium">
                                 {from} - {to} <span className="text-zinc-400 dark:text-zinc-500 mx-1">•</span> {duration}
                             </span>
                         </div>
                         <div className="flex items-center space-x-3 text-sm text-zinc-600 dark:text-zinc-400 bg-zinc-50 dark:bg-zinc-800/50 w-fit px-3 py-1.5 rounded-lg border border-zinc-100 dark:border-zinc-700/50 group-hover:bg-zinc-100 dark:group-hover:bg-zinc-800 transition-colors">
-                            <BriefcaseIcon className="w-4 h-4 text-emerald-500 dark:text-emerald-400" />
+                            <BriefcaseIcon className="w-4 h-4 text-zinc-400 dark:text-zinc-100" />
                             <span className="font-medium capitalize">{type}</span>
                         </div>
                     </div>

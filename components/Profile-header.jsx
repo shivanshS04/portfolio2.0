@@ -13,7 +13,7 @@ export default function ProfileHeader({ setOpen }) {
         <ProfileAvatar />
         <div className="flex flex-col items-start">
             <h3 className="scroll-m-20 max-md:text-base lg:text-xl font-semibold tracking-tight max-sm:tracking-tighter " >Shivansh Srivastava</h3>
-            <p className=" text-zinc-500 max-md:text-base tracking-tighter">Frontend Developer</p>
+            <p className=" text-zinc-500 max-md:text-base tracking-tighter">Fullstack Developer</p>
         </div>
     </div>)
 }

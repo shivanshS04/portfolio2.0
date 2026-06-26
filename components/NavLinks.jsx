@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Briefcase, Compass, FolderKanban, Github, Instagram, Linkedin, Mail, ScrollText, UserCircle, Wrench } from "lucide-react"
 import { usePathname, useRouter } from 'next/navigation'
+import Link from 'next/link'
 
 export default function NavLinks({ setOpen }) {
     const pathname = usePathname();
@@ -98,15 +99,19 @@ export default function NavLinks({ setOpen }) {
 
             {routeList.map((item, key) => {
                 return (
-                    <motion.a
+                    <motion.li
                         key={key}
                         variants={listItem}
-                        onClick={() => handleClick()}
-                        href={item.route}
-                        className={`flex flex-row justify-start items-center gap-2 p-3  ${item.route == pathname ? 'bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white' : 'bg-zinc-300 dark:bg-zinc-900 text-zinc-500'} hover:text-black hover:dark:text-white rounded-md first:mt-6 mt-2 cursor-pointer `}
+                        className="list-none"
                     >
-                        {item.icon} {item.name}
-                    </motion.a>
+                        <Link
+                            onClick={() => handleClick()}
+                            href={item.route}
+                            className={`flex flex-row justify-start items-center gap-2 p-3  ${item.route == pathname ? 'bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white' : 'bg-zinc-300 dark:bg-zinc-800 text-zinc-500'} hover:text-black hover:dark:text-white rounded-md first:mt-6 mt-2 cursor-pointer `}
+                        >
+                            {item.icon} {item.name}
+                        </Link>
+                    </motion.li>
                 )
             })}
 

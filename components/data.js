@@ -247,7 +247,7 @@ export function projectsData() {
       img: "",
       techStack: ["React.js", "Tailwind CSS", "PostgreSQL", "Prisma"],
       screenshots: ["/tb1.jpeg", "/tb2.jpeg", "/tb3.jpeg", "/tb4.jpeg"],
-      orientation: "portrait"
+      orientation: "portrait",
     },
     {
       title: "AI Interviewer",
@@ -258,7 +258,29 @@ export function projectsData() {
       img: "",
       techStack: ["Python", "LangChain", "LangGraph", "Streamlit", "Ollama"],
       screenshots: ["/ai1.png", "/ai2.png", "/ai3.png", "/ai4.png"],
-      orientation: "landscape"
+      orientation: "landscape",
+    },
+    {
+      title: "AI Content Curator",
+      id: "aiContentCurator",
+      github: "https://github.com/shivanshS04/ai_content_curation",
+      description: `A multi-platform AI content pipeline that transforms trending news into platform-optimized social media posts and blog content. Features include real-time news discovery via The News API, multi-platform AI content generation for 5 channels simultaneously using LLMs, and on-demand AI image generation with Stable Diffusion.`,
+      img: "",
+      techStack: [
+        "Python",
+        "Streamlit",
+        "LLMs",
+        "Stable Diffusion",
+        "The News API",
+      ],
+      url: "",
+      screenshots: [
+        "/content1.png",
+        "/content2.png",
+        "/content3.png",
+        "/content4.png",
+      ],
+      orientation: "landscape",
     },
   ];
 }
@@ -266,13 +288,22 @@ export function projectsData() {
 export function experienceData() {
   return [
     {
+      position: "Data Science Intern",
+      company: "Celebal Technologies Pvt. Ltd.",
+      type: "Intenship",
+      company_logo: "./celebal_technologies.jpg",
+      from: "May 2026",
+      to: "Jul 2026",
+      duration: "3 months",
+    },
+    {
       position: "Software Developer Intern",
       company: "Manipal University Jaipur",
       type: "Intenship",
       company_logo: "./muj.jpeg",
       from: "Oct 2024",
-      to: "Present",
-      duration: "Currently Working",
+      to: "May 2026",
+      duration: "1 year 8 months",
     },
     {
       position: "Research and Development Associate",
